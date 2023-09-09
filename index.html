@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td, th {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Data in table</caption>
+        <colgroup>
+            <col span="2" style="background-color: red;">
+            <col style="background-color: yellow;">
+        </colgroup>
+        <thead>
+            <th>Column #1</th>
+            <th>Column #2</th>
+            <th>Column #3</th>
+            <th>Column #4</th>
+            <th>Column #5</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td colspan="4">7</td>
+                <!-- <td>8</td>
+                <td>9</td>
+                <td>10</td> -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
